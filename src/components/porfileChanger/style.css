@@ -1,0 +1,134 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.75);
+  z-index: 200;
+}
+.modal-content {
+  position: fixed;
+  background: #ffffff;
+  height: auto;
+  top: 30%;
+  left: 50%;
+  border: 1px solid #e5e5e5;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+.modal-header {
+  display: flex;
+  border-radius: 12px 12px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 4%;
+  height: 50px;
+  background-color: #eef2f8;
+  font: normal bold 18px/24px larger;
+}
+.header-btn {
+  display: flex;
+}
+.min-size-placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #4c5d6c;
+}
+.content-modal {
+  display: flex;
+  width: 100%;
+  min-width: 420px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+ 
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+}
+.close-clicked {
+  height: 100%;
+  width: 100%;
+}
+.custom-file-upload {
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  padding: 6px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #3fa1a9, #79f1a4);
+  margin-bottom: 25px;
+}
+
+.img-wrap {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-upload:before {
+  font-size: 90px;
+  position: absolute;
+  padding-top: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #63d3a6;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fff;
+}
+.img-upload:hover:before {
+  opacity: 1;
+}
+img {
+  width: auto;
+  height: 100%;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #676767;
+}
+
+input {
+  border-radius: 15px;
+  border: 1px solid #b7b7b7;
+  padding: 5px 5px 5px 10px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #64d488;
+}
+input::placeholder {
+  color: #bebebe;
+}
+.pic-container{
+    margin-top:20px
+}
