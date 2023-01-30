@@ -1,4 +1,4 @@
-#Hosted Url: avatar-crop-changer-helios.netlify.app
+#Hosted Url:   avatar-crop-changer-helios.netlify.app
 
 #Avatar/profile changer and crop demostration by Amrit Gupta// can be implememt inside any form or component
 
