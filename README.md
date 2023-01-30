@@ -1,3 +1,8 @@
+#Hosted Url: avatar-crop-changer-helios.netlify.app
+
+#Avatar/profile changer and crop demostration by Amrit Gupta// can be implememt inside any form or component
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
